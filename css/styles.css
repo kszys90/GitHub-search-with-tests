@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ol, ul {
+    list-style: none outside none;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: darkgrey;
+}
+
+.container_background {
+    background-color: lightgrey;
+    width: 80%;
+    height: 75%;
+    max-width: 700px;
+}
+
+.container {
+    margin: 0 auto;
+    text-align: center;
+    padding: 25px 0;
+}
+
+.container__instruction {
+    height: auto;
+    padding: 5px 0;
+}
+
+.container__form--title {
+    padding: 0px 0px 10px 0px;
+}
+
+.container__form--buttons {
+    display: flex;
+    justify-content: center;
+    padding: 10px 20px;
+}
+
+.button {
+    padding: 0 20px;
+    width: 100px;
+}
+
+.container__form--buttons--empty {
+    width: 10px;
+}
+
+.hidden {
+    display: none;
+}
+
+.prototype {
+    display: none;
+}
+
+.container__recived-data--info-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.data-element {
+    text-align: left;
+}
+
+.container__recived-data--rows {
+    min-width: 230px;
+}
+
+.data__link {
+    justify-content: left;
+}
+
+.data-elements__list {
+    justify-content: center;
+}
+
+.data__avatar {
+    height: 105px;
+    max-width: auto;
+}
+
+.title {
+    padding: 20px
+}
+
+.container__error {
+    display: none;
+}
+
+.container__recived-data {
+    padding-top: 0;
+    margin-top: 0;
+}
+
+.repo_list--element {
+    text-align: left;
+    padding-left: 30px;
+}
+
+.error__container--repo {
+    text-align: left;
+    padding-left: 30px;
+}
+
+.error {
+    color: red;
+}

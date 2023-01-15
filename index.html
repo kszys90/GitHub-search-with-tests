@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta
+        http-equiv="X-UA-Compatible"
+        content="IE=edge"
+    >
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+    <title>Document</title>
+    <link
+        rel="stylesheet"
+        href="./css/styles.css"
+    >
+</head>
+
+<body>
+    <div class="container container_background">
+        <div class="container container__title">
+            <h1 class="text">Wyszukiwanie danych konta Git Hub</h1>
+        </div>
+        <div class="container container__instruction">
+            <p class="text paragraph">Wymaga konfiguracji uwierzytelnienia w pliku .env (login i token)
+            <p class="text paragraph">Projekt wykonywany w ramach projektu js-testing</p>
+            </p>
+        </div>
+        <div class="container container__form">
+            <form class="container__form--form">
+                <div class="container__form--title">
+                    <h3 class="text">Wprowadź wyszukiwany login</h3>
+                </div>
+                <div class="container__form">
+                    <label for="username"></label>
+                    <input
+                        class="input__username"
+                        type="text"
+                        name="username"
+                    >
+                </div>
+                <div class="container__form--buttons">
+                    <div>
+                        <input
+                            class="send__button button"
+                            type="submit"
+                            value="Wyślij!"
+                        >
+                    </div>
+                    <div class="container__form--buttons--empty"></div>
+                    <div>
+                        <button class="clear__button button">Wyczyść</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class="container container__error"> </div>
+        <div class="container container__recived-data hidden">
+            <h3 class="data__login--container title">
+                Login: <span class="data__login">wyszukany login</span>
+            </h3>
+            <div class="container__recived-data--info-container">
+                <div class="container__recived-data--rows">
+                    <p class="data-element">Imię i nazwisko: <span class="data__name">
+                            brak danych
+                        </span>
+                    </p>
+                    <p class="data-element">Email: <span class="data__email">
+                            brak danych
+                        </span>
+                    </p>
+                    <p class="data-element">
+                        <a
+                            href=""
+                            class="data-element data__link"
+                        >Link do użytkownika
+                        </a>
+                    </p>
+                    <p class="data-element">Lokalizacja: <span class="data__location">
+                            brak danych
+                        </span>
+                    </p>
+                    <p class="data-element ">Publiczne repozytoria: <span class="data__repos--amount">
+                            brak danych
+                        </span>
+                    </p>
+                    <p class="data-element ">Ostatnia aktualizacja: <span class="data__last-updated">
+                            brak danych
+                        </span>
+                    </p>
+                </div>
+                <div class="container__recived-data--rows  data__img">
+                </div>
+            </div>
+            <div class="container__recived-data--list__container ">
+
+                <h3 class="title data__login data__login ">
+                    Udostępnione repozytoria:
+                </h3>
+                <ol class="data-elements__list">
+
+                </ol>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
